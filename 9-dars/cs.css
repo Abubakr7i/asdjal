@@ -1,0 +1,38 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contanier {
+    width: 1000px;
+    margin: 0 auto;
+    height: 1000px;
+}
+
+.boxes {
+    background-color: rgb(17, 17, 205);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex-direction: row;
+
+    justify-content: space-evenly;
+
+    height: 200px;
+
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(209, 214, 209);
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 33px;
+    font-weight: bold;
+    border: 2px solid black;
+}
